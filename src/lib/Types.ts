@@ -1,6 +1,6 @@
 import { ThunkDispatch, ThunkAction } from 'redux-thunk';
 import { StyleProp } from 'react-native';
-// import { ApplicationState, AppActions } from './Redux/Store';
+import { ApplicationState, AppActions } from './Redux/Store';
 
 /* Setup
 ------------------------------------------------------------------- */
@@ -28,14 +28,14 @@ export type APIResult<T = undefined> = {
   data?: T;
 };
 
-// export type APIThunkResult<T = undefined> = ThunkAction<
-//   Promise<APIResult<T>>,
-//   ApplicationState,
-//   undefined,
-//   AppActions
-// >;
+export type APIThunkResult<T = undefined> = ThunkAction<
+  Promise<APIResult<T>>,
+  ApplicationState,
+  undefined,
+  AppActions
+>;
 
-// export type APIThunkDispatch = ThunkDispatch<ApplicationState, undefined, AppActions>;
+export type APIThunkDispatch = ThunkDispatch<ApplicationState, undefined, AppActions>;
 
 /* Interfaces
 ------------------------------------------------------------------- */

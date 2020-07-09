@@ -1,10 +1,13 @@
-import React, { FC, useState, useEffect, useRef } from 'react';
 import { NavigationContainer, NavigationContainerRef } from '@react-navigation/native';
+import React, { FC, useEffect, useRef, useState } from 'react';
 import { Asset } from 'react-native-unimodules';
+import { Provider as ReduxProvider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
 import { Plus, Remove } from './assets/images';
-import Splash from './screens/Splash';
-import RootNavigator, { getActiveRouteName } from './navigation';
+import Store, { persistor } from './lib/Redux/Store';
 import { ThemeProvider } from './lib/Theme';
+import RootNavigator, { getActiveRouteName } from './navigation';
+import Splash from './screens/Splash';
 
 const cacheAssets = (): Promise<any[]> => {
   const loadImages = Asset.loadAsync([Plus, Remove]);
@@ -34,7 +37,11 @@ const App: FC = () => {
       }}
     >
       <ThemeProvider>
-        <RootNavigator />
+        <ReduxProvider store={Store}>
+          <PersistGate loading={<Splash />} persistor={persistor}>
+            <RootNavigator />
+          </PersistGate>
+        </ReduxProvider>
       </ThemeProvider>
     </NavigationContainer>
   );
