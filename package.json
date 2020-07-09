@@ -11,8 +11,20 @@
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|json|jsx|ts|tsx)\""
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.11.0",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/native": "^5.6.1",
+    "@react-navigation/stack": "^5.6.2",
+    "expo-constants": "^9.1.1",
+    "expo-file-system": "^9.0.1",
     "react": "16.11.0",
-    "react-native": "0.62.2"
+    "react-native": "0.62.2",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-safe-area-context": "^3.0.7",
+    "react-native-screens": "^2.9.0",
+    "react-native-size-matters": "^0.3.0",
+    "react-native-unimodules": "^0.10.1",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -29,6 +41,7 @@
     "eslint": "^6.5.1",
     "eslint-config-airbnb-typescript": "^7.2.1",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
