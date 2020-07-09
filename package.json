@@ -56,6 +56,9 @@
   },
   "jest": {
     "preset": "@testing-library/react-native",
+    "setupFiles": [
+      "./setupTests.js"
+    ],
     "moduleFileExtensions": [
       "ts",
       "tsx",

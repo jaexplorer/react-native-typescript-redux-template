@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Does component render test 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "width": 12.857142857142858,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 9.642857142857142,
+            "justifyContent": "space-around",
+            "width": 12.857142857142858,
+          }
+        }
+      >
+        <Text
+          maxFontSizeMultiplier={1}
+          style={
+            Array [
+              Object {
+                "bottom": -5,
+                "color": "#999999",
+                "fontFamily": "",
+                "fontSize": 22,
+                "marginBottom": 4.285714285714286,
+                "textAlign": "center",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 14.142857142857142,
+                "textTransform": "uppercase",
+                "transform": Array [
+                  Object {
+                    "rotate": "90deg",
+                  },
+                ],
+              },
+            ]
+          }
+        >
+          T
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 9.642857142857142,
+            "justifyContent": "space-around",
+            "width": 12.857142857142858,
+          }
+        }
+      >
+        <Text
+          maxFontSizeMultiplier={1}
+          style={
+            Array [
+              Object {
+                "bottom": -5,
+                "color": "#999999",
+                "fontFamily": "",
+                "fontSize": 22,
+                "marginBottom": 4.285714285714286,
+                "textAlign": "center",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 14.142857142857142,
+                "textTransform": "uppercase",
+                "transform": Array [
+                  Object {
+                    "rotate": "90deg",
+                  },
+                ],
+              },
+            ]
+          }
+        >
+          e
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 9.642857142857142,
+            "justifyContent": "space-around",
+            "width": 12.857142857142858,
+          }
+        }
+      >
+        <Text
+          maxFontSizeMultiplier={1}
+          style={
+            Array [
+              Object {
+                "bottom": -5,
+                "color": "#999999",
+                "fontFamily": "",
+                "fontSize": 22,
+                "marginBottom": 4.285714285714286,
+                "textAlign": "center",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 14.142857142857142,
+                "textTransform": "uppercase",
+                "transform": Array [
+                  Object {
+                    "rotate": "90deg",
+                  },
+                ],
+              },
+            ]
+          }
+        >
+          s
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "height": 9.642857142857142,
+            "justifyContent": "space-around",
+            "width": 12.857142857142858,
+          }
+        }
+      >
+        <Text
+          maxFontSizeMultiplier={1}
+          style={
+            Array [
+              Object {
+                "bottom": -5,
+                "color": "#999999",
+                "fontFamily": "",
+                "fontSize": 22,
+                "marginBottom": 4.285714285714286,
+                "textAlign": "center",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 14.142857142857142,
+                "textTransform": "uppercase",
+                "transform": Array [
+                  Object {
+                    "rotate": "90deg",
+                  },
+                ],
+              },
+            ]
+          }
+        >
+          t
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

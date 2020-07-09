@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Does component render test 1`] = `
+<View
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    collapsable={true}
+    pointerEvents="box-none"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <Text
+      maxFontSizeMultiplier={1}
+      style={
+        Array [
+          Object {
+            "bottom": -5,
+            "color": "#333333",
+            "fontFamily": "",
+            "fontSize": 15.714285714285714,
+            "marginBottom": 0,
+            "textAlign": "center",
+            "textAlignVertical": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      Test
+    </Text>
+  </View>
+</View>
+`;

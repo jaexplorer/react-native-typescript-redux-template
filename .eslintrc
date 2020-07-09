@@ -17,6 +17,9 @@
       "jsx": true
     }
   },
+  "env": {
+    "jest": true
+  },
   "plugins": ["@typescript-eslint"],
   "rules": {
     "import/no-cycle": 0,

@@ -1,12 +1,22 @@
 import React, { FC } from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
+import Text from '../../components/Text';
+import Screen from '../../components/Screen';
 import { HomeScreen } from '../../navigation/Types';
+import { useTheme } from '../../lib/Theme';
+import useStrings from '../../lib/Strings';
+import stylesCreator from './HomeStyles';
 
 const Home: FC<HomeProps> = ({ navigation }) => {
+  const [styles] = useTheme(stylesCreator);
+  const [strings] = useStrings();
+
   return (
-    <View>
-      <Text>Hello World</Text>
-    </View>
+    <Screen>
+      <View style={styles.homeContainer}>
+        <Text>{strings.HomeScreen.title}</Text>
+      </View>
+    </Screen>
   );
 };
 
