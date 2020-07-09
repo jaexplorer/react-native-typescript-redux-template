@@ -4,7 +4,6 @@ import { StylesCreator } from '../../lib/Theme';
 const stylesCreator: StylesCreator = (theme, scale, moderateScale, props) =>
   StyleSheet.create({
     text: {
-      fontFamily: props.bold ? theme.font.bold : theme.font.regular,
       fontSize: props.bold ? moderateScale(14) : moderateScale(10),
       textAlignVertical: 'center',
       textAlign: 'center',
