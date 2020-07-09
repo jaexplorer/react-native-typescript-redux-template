@@ -48,7 +48,6 @@ exports[`Does Button render test 1`] = `
             Object {
               "bottom": -5,
               "color": "#333333",
-              "fontFamily": "",
               "fontSize": 15.714285714285714,
               "marginBottom": 0,
               "textAlign": "center",

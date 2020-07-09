@@ -42,7 +42,6 @@ exports[`Does component render test 1`] = `
               Object {
                 "bottom": -5,
                 "color": "#999999",
-                "fontFamily": "",
                 "fontSize": 22,
                 "marginBottom": 4.285714285714286,
                 "textAlign": "center",
@@ -80,7 +79,6 @@ exports[`Does component render test 1`] = `
               Object {
                 "bottom": -5,
                 "color": "#999999",
-                "fontFamily": "",
                 "fontSize": 22,
                 "marginBottom": 4.285714285714286,
                 "textAlign": "center",
@@ -118,7 +116,6 @@ exports[`Does component render test 1`] = `
               Object {
                 "bottom": -5,
                 "color": "#999999",
-                "fontFamily": "",
                 "fontSize": 22,
                 "marginBottom": 4.285714285714286,
                 "textAlign": "center",
@@ -156,7 +153,6 @@ exports[`Does component render test 1`] = `
               Object {
                 "bottom": -5,
                 "color": "#999999",
-                "fontFamily": "",
                 "fontSize": 22,
                 "marginBottom": 4.285714285714286,
                 "textAlign": "center",
